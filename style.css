@@ -32,24 +32,23 @@ nav ul li a {
   margin: 0 auto;
   border-radius: 20px;
   border: 2px solid #000;
-
 }
 
 .highlights {
-    color: #fff;
-    background: rgb(55, 168, 55);
-    /* border: 2px solid #000; */
-    border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding: 10px 2px;
-    margin-bottom: 20px;
+  color: #fff;
+  background: rgb(52, 109, 52);
+  /* border: 2px solid #000; */
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px 5px;
+  margin-bottom: 20px;
 }
 
-.hover{
-    transition: 1s;
+.hover {
+  transition: 1s;
 }
 .hover:hover {
-    transform: perspective(33px) translateZ(10px);
+  transform: perspective(20px) translateZ(-5px);
 }
 
 .btn {
@@ -67,7 +66,6 @@ nav ul li a {
   padding: 20px;
 }
 
-
 footer {
   padding: 10px;
   background: #333;
@@ -84,13 +82,12 @@ footer {
   }
 
   .features {
-   flex-direction: column;
+    flex-direction: column;
   }
 
   .highlights {
     width: 90%;
     margin: 10px auto;
     /* padding: 30px; */
-}
-
+  }
 }
